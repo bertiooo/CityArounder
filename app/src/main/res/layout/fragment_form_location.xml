@@ -1,0 +1,155 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hfu.puigrodr.cityarounder.activities.FormLocationActivity">
+
+    <LinearLayout
+        android:id="@+id/formLocation"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_title" />
+
+        <EditText
+            android:hint="@string/form_title"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_tour" />
+
+        <TextView
+            android:hint="@string/form_no_tour"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formTour" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_btn_add_tour"
+                android:onClick="chooseTour" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/form_btn_new_tour"
+                android:onClick="addNewTour" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_category" />
+
+        <TextView
+            android:hint="@string/form_no_category"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formCategory" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_btn_add_category"
+            android:onClick="chooseCategory"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_description" />
+
+        <EditText
+            android:hint="@string/form_description"
+            android:layout_margin="10dp"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:gravity="top|start"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_position" />
+
+        <com.google.android.gms.maps.MapView
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            tools:ignore="MissingPrefix"
+            map:liteMode="true"
+            map:cameraZoom="16"
+            map:uiMapToolbar="false"
+            android:id="@+id/formMapLite"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_btn_choose_position"
+            android:onClick="choosePosition"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_picture" />
+
+        <ImageView
+            android:id="@+id/formImage"
+            android:contentDescription="@string/form_btn_get_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/formImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_btn_get_picture"
+            android:onClick="getPicture"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_btn_send"
+            android:layout_gravity="center_horizontal"
+            android:onClick="sendFormular" />
+
+    </LinearLayout>
+
+</ScrollView>

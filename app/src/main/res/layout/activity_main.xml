@@ -1,0 +1,86 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_main"
+    tools:context="hfu.puigrodr.cityarounder.activities.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_above="@+id/linearLayout_MainBottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="@string/main_menu_1"
+            android:background="#fff"
+            android:textColor="#4B91DB"
+            android:id="@+id/main_button_staedte"
+            android:onClick="handleMenuButtons" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/main_menu_2"
+            android:background="#fff"
+            android:textColor="#4B91DB"
+            android:id="@+id/main_button_mytours"
+            android:onClick="handleMenuButtons" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/linearLayout_MainBottom">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="@string/main_menu_3"
+            android:id="@+id/main_button_demo"
+            android:background="#fff"
+            android:textColor="#4B91DB"
+            android:onClick="handleMenuButtons" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/main_menu_4"
+            android:background="#fff"
+            android:textColor="#4B91DB"
+            android:id="@+id/main_button_map"
+            android:onClick="handleMenuButtons" />
+
+    </LinearLayout>
+<!--
+    <ImageView
+        android:id="@+id/logo_image_main"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+-->
+</RelativeLayout>

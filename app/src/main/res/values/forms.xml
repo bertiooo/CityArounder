@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Location Form -->
+    <string name="form_title">Titel</string>
+    <string name="form_tour">Tour</string>
+    <string name="form_category">Kategorie</string>
+    <string name="form_location">Standort</string>
+    <string name="form_description">Beschreibung</string>
+    <string name="form_position">Standort</string>
+    <string name="form_picture">Foto</string>
+
+    <string name="form_tour_city">Stadt</string>
+    <string name="form_tour_title">Titel</string>
+
+    <string name="dialog_tour_create">Erstellen</string>
+    <string name="dialog_tour_cancel">Abbrechen</string>
+
+    <string name="form_no_tour">Keine Tour ausgewählt</string>
+    <string name="form_no_category">Keine Kategorie ausgewählt</string>
+    <string name="form_no_location">Bitte den Standort wählen</string>
+
+    <string name="form_btn_add_tour">Tour wählen</string>
+    <string name="form_btn_new_tour">Neue Tour</string>
+    <string name="form_btn_add_category">Kategorie wählen</string>
+    <string name="form_btn_choose_position">Standort wählen</string>
+    <string name="form_btn_get_picture">Foto aufnehmen</string>
+    <string name="form_location_btn_ok">OK</string>
+
+    <string name="form_btn_send">Speichern</string>
+
+</resources>

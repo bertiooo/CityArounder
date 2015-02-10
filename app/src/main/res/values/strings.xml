@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CityArounder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">CityArounder</string>
+    <string name="title_activity_locations">Locations</string>
+    <string name="title_activity_view_pager">CityArounder</string>
+    <string name="title_activity_form_location">Neuen Ort erstellen</string>
+    <string name="main_menu_1">Städte</string>
+    <string name="main_menu_2">Meine Touren</string>
+    <string name="main_menu_3">Neuer Ort</string>
+    <string name="main_menu_4">Karte</string>
+
+    <string-array name="locations_views">
+        <item>Karte</item>
+        <item>Liste</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Restaurants</item>
+        <item>Bars</item>
+        <item>Cafés</item>
+        <item>Museen</item>
+        <item>Sehenswürdigkeiten</item>
+        <item>Clubs</item>
+        <item>Parks</item>
+    </string-array>
+
+    <string name="action_add">Hinzufügen</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="locationArrow">Swipe Up or Down to reveal information</string>
+    <string name="locationImage">Image of the location</string>
+
+</resources>
