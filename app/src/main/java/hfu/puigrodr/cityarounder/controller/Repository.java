@@ -26,7 +26,7 @@ import hfu.puigrodr.cityarounder.models.Tour;
  */
 public class Repository {
 
-    public final static String urlServer = "cityarounder.iriscouch.com";
+    public final static String urlServer = "cityarounder.iriscouch.com:6984";
 
     private Context mContext;
 

@@ -74,7 +74,7 @@ public class QueryBuilder{
             try {
 
                 String urlQuery = this.urlServer + this.urlPath;
-                URL url = new URL("http://" + urlQuery);
+                URL url = new URL("https://" + urlQuery);
 
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod(this.method);
